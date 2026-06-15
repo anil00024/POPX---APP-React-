@@ -4,7 +4,7 @@ A pixel-perfect React implementation of the **PopX** mobile app UI, based on the
 
 ## Live Demo
 
-> 🔗 **https://your-vercel-link.vercel.app** _(replace after deployment)_
+> 🔗 https://popx-app-react-kappa.vercel.app/
 
 ## Screens
 
