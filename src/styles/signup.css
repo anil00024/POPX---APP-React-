@@ -1,0 +1,98 @@
+.signup-container {
+  padding: 36px 24px 28px;
+  min-height: 667px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.signup-header {
+  margin-bottom: 24px;
+}
+
+.signup-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.3;
+}
+
+.signup-form {
+  flex: 1;
+}
+
+.agency-group {
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.agency-label {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 28px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #333;
+  user-select: none;
+}
+
+.radio-option input[type='radio'] {
+  display: none;
+}
+
+.radio-custom {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  flex-shrink: 0;
+  transition: all 0.15s;
+}
+
+.radio-option input[type='radio']:checked + .radio-custom {
+  border-color: #6C25FF;
+  background: #6C25FF;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn-create {
+  width: 100%;
+  padding: 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  background: #6C25FF;
+  color: #ffffff;
+  transition: opacity 0.2s;
+  margin-top: 12px;
+}
+
+.btn-create:hover {
+  opacity: 0.88;
+}
+
+.btn-create:active {
+  opacity: 0.75;
+}
+
+.btn-create--disabled {
+  background: #c4c4c4;
+  cursor: not-allowed;
+}
+
+.btn-create--disabled:hover {
+  opacity: 1;
+}
